@@ -34,7 +34,6 @@ teams.remove('team1')
 for team in teams:
     d[team] = {"Total_played": total_played.count(team), "won": winner.count(team), "lost": total_played.count(team)-winner.count(team)}
         
-#dictionary converted into the json form
-#d = json.dumps(d)
+
 print(d)
     
