@@ -7,7 +7,6 @@ Created on Thu Jul  4 11:13:12 2019
 """
 
 import csv
-import json
 
 teams = []
 total_played = []
