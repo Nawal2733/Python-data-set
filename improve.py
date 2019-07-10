@@ -29,6 +29,7 @@ with open('matches.csv', 'r') as csvFile:
         
 csvFile.close()
 
+teams = set(teams)
 loop(teams)
 d.pop('team1')
 print(d)
