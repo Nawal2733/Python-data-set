@@ -25,8 +25,6 @@ def loop(data):
         
 with open('matches.csv', 'r') as csvFile:
     reader = csv.reader(csvFile)
-    #for row in reader:
-        #print(row[0])
     loop(reader)
         
 csvFile.close()
